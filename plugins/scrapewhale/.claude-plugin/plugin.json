@@ -1,0 +1,28 @@
+{
+  "name": "scrapewhale",
+  "displayName": "ScrapeWhale",
+  "version": "1.0.0",
+  "description": "Brand and competitor research with live web data: estimated traffic, the ads a brand runs, social profiles, Google search, Maps and Trends, and any web page as markdown. Bundles the ScrapeWhale MCP server and a research skill.",
+  "author": {
+    "name": "ScrapeWhale",
+    "email": "support@scrapewhale.dev",
+    "url": "https://scrapewhale.dev"
+  },
+  "homepage": "https://scrapewhale.dev",
+  "repository": "https://github.com/openskillsapp/skills",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "competitor research",
+    "website traffic",
+    "ad library",
+    "social media",
+    "seo",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "documentationUrl": "https://scrapewhale.dev/docs/api",
+  "supportUrl": "https://scrapewhale.dev/contact",
+  "privacyPolicyUrl": "https://scrapewhale.dev/privacy",
+  "termsOfServiceUrl": "https://scrapewhale.dev/terms"
+}

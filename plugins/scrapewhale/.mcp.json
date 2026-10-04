@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scrapewhale": {
+      "type": "http",
+      "url": "https://scrapewhale.dev/mcp"
+    }
+  }
+}

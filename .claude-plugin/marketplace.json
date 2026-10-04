@@ -1,0 +1,24 @@
+{
+  "name": "openskills",
+  "description": "Public agent skills and Claude Code plugins from Open Skills (openskills.app).",
+  "owner": {
+    "name": "Open Skills",
+    "url": "https://openskills.app"
+  },
+  "plugins": [
+    {
+      "name": "scrapewhale",
+      "source": "./plugins/scrapewhale",
+      "description": "Brand and competitor research with live web data: traffic, ads, social profiles, search, maps, trends, and any web page as markdown.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "competitor-research",
+        "ads",
+        "seo",
+        "social-media",
+        "mcp"
+      ]
+    }
+  ]
+}
