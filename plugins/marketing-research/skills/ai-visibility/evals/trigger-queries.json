@@ -1,0 +1,82 @@
+[
+ {
+  "query": "does chatgpt recommend us (pipedrive) when people ask for a crm for small sales teams? and who does it recommend instead",
+  "should_trigger": true
+ },
+ {
+  "query": "I want a baseline of how visible plausible.io is in Google AI Overviews and Perplexity vs Fathom and Matomo before we start GEO work",
+  "should_trigger": true
+ },
+ {
+  "query": "check if our brand shows up in AI answers for 'best project management tool for agencies' and similar prompts. we're teamwork.com",
+  "should_trigger": true
+ },
+ {
+  "query": "why does perplexity keep citing g2 and a competitor's blog instead of our docs when people ask how to set up sso in our category?",
+  "should_trigger": true
+ },
+ {
+  "query": "run an AI search share of voice check for us vs 3 competitors across chatgpt, gemini and claude",
+  "should_trigger": true
+ },
+ {
+  "query": "how often are we cited in google's ai overviews for our main buying queries? we sell ergonomic office chairs",
+  "should_trigger": true
+ },
+ {
+  "query": "we re-ran our pricing pages last month, can you redo the AI visibility check from october (it's in ai-visibility/acme/) and tell me what moved",
+  "should_trigger": true
+ },
+ {
+  "query": "Which sites does ChatGPT cite most when recommending invoicing software? I want to know where we need to get mentioned",
+  "should_trigger": true
+ },
+ {
+  "query": "are we 'agent ready'? check llms.txt, agents.md and whether AI bots send us traffic, compared with our two main rivals",
+  "should_trigger": true
+ },
+ {
+  "query": "LLM visibility audit for our dental clinic chain: what do AI assistants say when someone asks for the best dentist in Austin",
+  "should_trigger": true
+ },
+ {
+  "query": "rewrite this blog post so it is more likely to be cited by ChatGPT and AI Overviews (pasted below)",
+  "should_trigger": false
+ },
+ {
+  "query": "add an llms.txt file to our Next.js site and generate its contents from the sitemap",
+  "should_trigger": false
+ },
+ {
+  "query": "what is GEO and how is it different from SEO? explain like i'm a marketing intern",
+  "should_trigger": false
+ },
+ {
+  "query": "add FAQPage schema to our pricing page so we get rich results",
+  "should_trigger": false
+ },
+ {
+  "query": "our organic traffic dropped 30% after the google core update, what happened",
+  "should_trigger": false
+ },
+ {
+  "query": "build me a chatbot that answers questions about our docs using RAG",
+  "should_trigger": false
+ },
+ {
+  "query": "set up GA4 so I can see traffic from chatgpt.com and perplexity as a separate channel",
+  "should_trigger": false
+ },
+ {
+  "query": "write a press release about our series A to get coverage that AI models will pick up",
+  "should_trigger": false
+ },
+ {
+  "query": "check our core web vitals and page speed on mobile",
+  "should_trigger": false
+ },
+ {
+  "query": "which LLM is best for summarising customer support tickets, gpt or claude?",
+  "should_trigger": false
+ }
+]

@@ -1,0 +1,82 @@
+[
+ {
+  "query": "which of these 12 keywords should we target first for our invoicing app? invoice template, free invoice generator, net 30 meaning, ...",
+  "should_trigger": true
+ },
+ {
+  "query": "write me a content brief for 'how to price a saas product' that can outrank what's ranking now",
+  "should_trigger": true
+ },
+ {
+  "query": "who ranks for 'best crm for small business' and what kind of pages are winning? can a small site like ours compete",
+  "should_trigger": true
+ },
+ {
+  "query": "compare our organic search with calendly and cal.com, we're savvycal. where are they winning that we aren't",
+  "should_trigger": true
+ },
+ {
+  "query": "is it realistic for us to rank for 'project management software'? our DR is like 25",
+  "should_trigger": true
+ },
+ {
+  "query": "track our google positions weekly for these 20 keywords and tell me what moved",
+  "should_trigger": true
+ },
+ {
+  "query": "what questions do people ask about 'protein coffee' on google and is interest growing?",
+  "should_trigger": true
+ },
+ {
+  "query": "find SERP features and the page type google prefers for 'shopify dropshipping suppliers'",
+  "should_trigger": true
+ },
+ {
+  "query": "keyword research for a new blog on home espresso machines - what should the first 10 articles target",
+  "should_trigger": true
+ },
+ {
+  "query": "look at the top 5 results for 'remote team building activities' and tell me what a page needs to compete",
+  "should_trigger": true
+ },
+ {
+  "query": "audit our site for technical SEO issues - crawl errors, canonicals, page speed",
+  "should_trigger": false
+ },
+ {
+  "query": "why is this page not indexed in google search console? 'crawled - currently not indexed'",
+  "should_trigger": false
+ },
+ {
+  "query": "write a 2000-word blog post on 'how to price a saas product'",
+  "should_trigger": false
+ },
+ {
+  "query": "add product schema and breadcrumbs JSON-LD to our shopify theme",
+  "should_trigger": false
+ },
+ {
+  "query": "plan our content strategy for the next 6 months, themes, cadence and distribution",
+  "should_trigger": false
+ },
+ {
+  "query": "generate a sitemap.xml for our astro site",
+  "should_trigger": false
+ },
+ {
+  "query": "set up programmatic SEO pages for 500 city + service combinations",
+  "should_trigger": false
+ },
+ {
+  "query": "fix the hreflang tags on our german and french pages",
+  "should_trigger": false
+ },
+ {
+  "query": "how do I get backlinks from directories for my new saas",
+  "should_trigger": false
+ },
+ {
+  "query": "our blog traffic is down since march, here's the GSC export, which posts decayed",
+  "should_trigger": false
+ }
+]

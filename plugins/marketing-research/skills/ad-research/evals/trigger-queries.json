@@ -1,0 +1,82 @@
+[
+ {
+  "query": "what ads is gymshark running on instagram right now? i want to see which ones they've kept running the longest",
+  "should_trigger": true
+ },
+ {
+  "query": "Can you do a teardown of Liquid Death's Facebook ads? Angles, offers, hooks, the works. We're a canned water startup and want to know what's working for them",
+  "should_trigger": true
+ },
+ {
+  "query": "my boss wants a swipe file of competitor ads before we brief the agency next week. competitors are hims.com, ro.co and keeps.com",
+  "should_trigger": true
+ },
+ {
+  "query": "Check the Google Ads Transparency Center for notion.so and tell me what kinds of ads they run and where they send people",
+  "should_trigger": true
+ },
+ {
+  "query": "which of AG1's meta ads have been live for more than 3 months? quote the copy",
+  "should_trigger": true
+ },
+ {
+  "query": "is calendly even advertising on facebook? if so whats the main message",
+  "should_trigger": true
+ },
+ {
+  "query": "We sell a meal kit in the UK. Look at HelloFresh and Gousto ads and give me 4 creative concepts we could test, based on what they keep running",
+  "should_trigger": true
+ },
+ {
+  "query": "can you monitor allbirds' ads weekly and tell me what new ones they launch and which they kill",
+  "should_trigger": true
+ },
+ {
+  "query": "ad spy on my competitor oura ring - what offers and discounts are they pushing in ads lately",
+  "should_trigger": true
+ },
+ {
+  "query": "Compare the paid social creative of three DTC mattress brands: casper, purple and nectar. formats, CTAs, landing pages",
+  "should_trigger": true
+ },
+ {
+  "query": "write me 10 facebook ad headlines for my productivity app, it helps freelancers track time",
+  "should_trigger": false
+ },
+ {
+  "query": "our meta ads CPA went from $40 to $95 this month, here's the campaign export (attached csv). what should i change in the account?",
+  "should_trigger": false
+ },
+ {
+  "query": "how do I set up the Meta pixel and conversions API on my shopify store",
+  "should_trigger": false
+ },
+ {
+  "query": "generate a 1080x1080 ad image for our summer sale, 30% off, brand colours navy and coral",
+  "should_trigger": false
+ },
+ {
+  "query": "how much budget should a seed-stage b2b saas spend on linkedin ads per month to test the channel?",
+  "should_trigger": false
+ },
+ {
+  "query": "draft a google ads search campaign structure for 'invoice software' keywords with ad groups and RSAs",
+  "should_trigger": false
+ },
+ {
+  "query": "our TikTok ad got 2M views but no sales, here are the stats, why",
+  "should_trigger": false
+ },
+ {
+  "query": "what's the difference between advantage+ shopping campaigns and manual campaigns on meta",
+  "should_trigger": false
+ },
+ {
+  "query": "Write a UGC video script for a skincare ad, 30 seconds, hook in first 3 seconds",
+  "should_trigger": false
+ },
+ {
+  "query": "Analyze our own ad account's last 90 days and tell me which creatives to pause (export attached)",
+  "should_trigger": false
+ }
+]

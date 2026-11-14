@@ -1,0 +1,82 @@
+[
+ {
+  "query": "who are our main competitors and how do they get customers? we're fillout.com (form builder)",
+  "should_trigger": true
+ },
+ {
+  "query": "do a competitor analysis of typeform, tally and jotform - traffic, channels, pricing, positioning, where they're weak",
+  "should_trigger": true
+ },
+ {
+  "query": "how much traffic does monday.com get compared to clickup and asana, and where does it come from",
+  "should_trigger": true
+ },
+ {
+  "query": "I'm launching a meal kit in the UK, size up the competition for me",
+  "should_trigger": true
+ },
+ {
+  "query": "Benchmark our SaaS against 4 rivals on traffic, SEO strength, ads and social so I can present it to the board on friday",
+  "should_trigger": true
+ },
+ {
+  "query": "which channel does linear rely on most, organic or paid? and what about shortcut",
+  "should_trigger": true
+ },
+ {
+  "query": "we're reviewing pricing - compare the plans, entry prices and free tiers of the top 5 email marketing tools vs us (mailerlite)",
+  "should_trigger": true
+ },
+ {
+  "query": "give me a competitive landscape of AI meeting note takers: otter, fireflies, fathom, tldv",
+  "should_trigger": true
+ },
+ {
+  "query": "track our 3 main competitors monthly and tell me when their traffic, pricing or homepage messaging changes",
+  "should_trigger": true
+ },
+ {
+  "query": "what's notion's positioning and how does it differ from coda and obsidian, with numbers if you can",
+  "should_trigger": true
+ },
+ {
+  "query": "write a 'Notion vs Coda' comparison page for our website, SEO optimised",
+  "should_trigger": false
+ },
+ {
+  "query": "make a sales battle card for when we're up against HubSpot in deals",
+  "should_trigger": false
+ },
+ {
+  "query": "how did Linear grow from zero to where they are? give me a timeline of their marketing moves since 2019",
+  "should_trigger": false
+ },
+ {
+  "query": "research acme corp before my sales call tomorrow, who are the decision makers",
+  "should_trigger": false
+ },
+ {
+  "query": "our own traffic dropped 20% last month in GA4, figure out why",
+  "should_trigger": false
+ },
+ {
+  "query": "write our positioning statement using April Dunford's framework",
+  "should_trigger": false
+ },
+ {
+  "query": "set our pricing: should we do usage-based or per-seat for our API product",
+  "should_trigger": false
+ },
+ {
+  "query": "find 50 B2B SaaS companies in fintech with 50-200 employees for outbound",
+  "should_trigger": false
+ },
+ {
+  "query": "summarise this analyst report on the CRM market (pdf attached)",
+  "should_trigger": false
+ },
+ {
+  "query": "what are porter's five forces? apply them to the coffee shop industry in general",
+  "should_trigger": false
+ }
+]

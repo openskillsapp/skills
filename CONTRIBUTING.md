@@ -82,6 +82,30 @@ Cover the main path, a multi-subject batch (credit confirmation), the
 no-data-plugin path, and repeat mode where the skill has one. Prompts should
 be substantive tasks; one-step questions don't trigger skills.
 
+### Trigger tests
+
+`evals/trigger-queries.json` holds about 20 queries,
+`{"query", "should_trigger"}`: half the skill should catch, and half
+near-misses that belong to a neighbouring skill (ours or another repo's,
+e.g. `ad-creative`, `ai-seo`, `competitors`, `seo-audit`). Run them with
+skill-creator's `run_loop.py` / `run_eval.py`, after two changes to how the
+`claude -p` test sessions start:
+
+- **Hide installed copies.** If these plugins are installed, the test
+  session picks the real skill instead of the temporary one and every
+  trigger scores as a miss. Pass
+  `--settings '{"enabledPlugins":{"marketing-research@openskills":false,"scrapewhale@openskills":false}}'`.
+- **No side effects.** A session that doesn't trigger carries on with the
+  task, so add `--strict-mcp-config` (no MCP servers, no ScrapeWhale
+  credits, no browser) and `--disallowedTools Bash Write Edit NotebookEdit
+  WebFetch WebSearch`.
+
+Baseline, 2026-11-14 (2 runs per query, 2 rewrite rounds, Claude Opus 5.5):
+every skill had 0 false triggers on its near-misses and triggered on 25–35%
+of should-trigger runs. Longer rewritten descriptions did no better on the
+held-out queries, so the current descriptions were kept. Repeat and monitor
+requests ("check weekly", "redo last month's check") missed most often.
+
 ## Releasing
 
 Bump `version` in the plugin's `plugin.json` and the skill's `metadata`
