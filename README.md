@@ -4,51 +4,47 @@ Agent skills and Claude Code plugins published by [Open Skills](https://openskil
 Every skill follows the [Agent Skills](https://agentskills.io) standard, so it
 works in Claude Code, Codex, Cursor, and other agents that read `SKILL.md`.
 
-| Skill / plugin | What it does |
-| --- | --- |
-| [`scrapewhale`](plugins/scrapewhale) | Brand and competitor research with live web data: estimated traffic, the ads a brand runs on Meta and Google, social profiles, Google search, Maps and Trends, store catalogs, and any web page as markdown. Bundles the [ScrapeWhale](https://scrapewhale.dev) MCP server. |
+## Plugins and skills
+
+| Plugin | Skill | What it does |
+| --- | --- | --- |
+| [`marketing-research`](plugins/marketing-research) | [`ad-research`](plugins/marketing-research/skills/ad-research) | What a company advertises on Meta and Google: live ads, the longest-running ones, angles, hooks, offers and landing pages, with exact copy and dates. Teardowns, swipe files, creative briefs and monitoring. |
+| [`scrapewhale`](plugins/scrapewhale) | [`scrapewhale`](plugins/scrapewhale/skills/scrapewhale) | Live public web data: estimated traffic, the ads a brand runs, social profiles, Google search, AI Overview, Maps and Trends, store catalogs, and any web page as markdown. Bundles the [ScrapeWhale](https://scrapewhale.dev) MCP server. |
+
+Job skills (`marketing-research`) work on their own with a browser or your
+own data, and go further with ScrapeWhale's live data. Disclosure:
+ScrapeWhale is made by the same team as Open Skills.
 
 ## Install
+
+**Claude Code plugin** (skills and MCP server in one install):
+
+```
+/plugin marketplace add openskillsapp/skills
+/plugin install marketing-research@openskills
+```
+
+`marketing-research` installs `scrapewhale` with it. Then run `/mcp`, pick
+**scrapewhale**, and sign in. To get only the data tools:
+`/plugin install scrapewhale@openskills`.
 
 **Any agent** (via [skills.sh](https://skills.sh)):
 
 ```bash
-npx skills add openskillsapp/skills
-# or one skill:
-npx skills add openskillsapp/skills --skill scrapewhale
+npx skills add openskillsapp/skills                     # all skills
+npx skills add openskillsapp/skills --skill ad-research # one skill
 ```
 
-**Claude Code plugin** (skill + MCP server in one install):
+For live data, add `https://scrapewhale.dev/mcp` as a remote (Streamable
+HTTP) MCP server and sign in; setup guides for Codex, Cursor and others are
+at https://scrapewhale.dev/docs/api. Calls spend ScrapeWhale credits (new
+accounts get 10 free; failed calls are refunded).
 
-```
-/plugin marketplace add openskillsapp/skills
-/plugin install scrapewhale@openskills
-```
+## Contributing
 
-Then run `/mcp`, pick **scrapewhale**, and sign in.
-
-## ScrapeWhale access
-
-The `scrapewhale` skill uses the hosted MCP server `https://scrapewhale.dev/mcp`
-(sign in with a ScrapeWhale account; the Claude Code plugin sets it up). For
-other agents, add that URL as a remote MCP server; setup guides are at
-https://scrapewhale.dev/docs/api.
-
-Calls spend ScrapeWhale credits (new accounts get 10 free; failed calls are
-refunded). Disclosure: ScrapeWhale is made by the same team as Open Skills.
-
-## Layout
-
-```
-.claude-plugin/marketplace.json      Claude Code marketplace (name: openskills)
-plugins/<plugin>/
-  .claude-plugin/plugin.json         plugin manifest
-  .mcp.json                          bundled MCP server(s), if any
-  skills/<skill>/SKILL.md            the skill (name = folder name)
-  skills/<skill>/references/         detail loaded on demand
-```
-
-Skills contain instructions only, no executable scripts.
+Layout, house rules and the eval format are in
+[CONTRIBUTING.md](CONTRIBUTING.md). Check your changes with
+`node scripts/validate.mjs`.
 
 ## License
 

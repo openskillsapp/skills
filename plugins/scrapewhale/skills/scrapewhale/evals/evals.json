@@ -1,0 +1,37 @@
+{
+  "skill_name": "scrapewhale",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "How much traffic does notion.so get and where does it come from?",
+      "expected_output": "Calls domain_intel with action traffic for notion.so (1 credit), reports monthly visits, sources and top countries as estimates with the snapshot date, and does not run a full brand dossier.",
+      "files": [],
+      "expectations": [
+        "Uses domain_intel traffic rather than brand_dossier",
+        "Labels the figures as estimates",
+        "Gives the snapshot date when the result has one"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Compare the traffic, domain rating and Google ads of these 15 DTC brands: [list of 15 domains]",
+      "expected_output": "Estimates the credit cost (about 15 x 4 credits), asks the user to confirm before running because it is over 20 credits, then builds one comparison table with a row per brand and 3 to 5 takeaways.",
+      "files": [],
+      "expectations": [
+        "States a credit estimate and asks for confirmation before the batch",
+        "Puts the comparison in one table with a row per brand",
+        "Ends with 3 to 5 actionable takeaways"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Find the top-rated coffee roasters in Austin, TX.",
+      "expected_output": "Runs google_maps search, ranks results by rating and review count, includes website and address, and notes unclaimed listings if relevant.",
+      "files": [],
+      "expectations": [
+        "Uses google_maps search",
+        "Returns a ranked table with rating, review count, address and website"
+      ]
+    }
+  ]
+}

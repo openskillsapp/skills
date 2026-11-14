@@ -1,0 +1,57 @@
+{
+  "skill_name": "ad-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What ads is Allbirds running on Facebook and Instagram right now? Which ones seem to be working?",
+      "expected_output": "Resolves the Allbirds Facebook page (checks website_url), pulls Meta ads as JSON, separates active from inactive, ranks active ads by days running and quotes the top ones in full with start dates and links, codes angles/hooks/offers, and explains that days running is a signal, not proof. States the credits used and does not estimate spend.",
+      "files": [],
+      "expectations": [
+        "Confirms the Facebook page matches allbirds.com before pulling ads",
+        "Requests the Meta ads in JSON format rather than relying on the markdown table",
+        "Lists the longest-running active ads with start date, days running and an ad ID or link",
+        "Quotes ad copy exactly",
+        "Says days running is a signal of performance, not proof",
+        "Does not give spend, impression or targeting figures"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Build me a swipe file of the best ads from notion.so, clickup.com and monday.com so I can brief my designer. We sell a project management tool for agencies.",
+      "expected_output": "Estimates credits for three advertisers on Meta and Google and asks before going over 20. Researches each, codes ads with the coding guide, builds a comparison table, then a swipe file grouped by angle where each ad has why it works and how to adapt it to an agency PM tool. Saves raw data and the report under ad-research/<slug>/<date>/. Suggests ad-creative for copy variations.",
+      "files": [],
+      "expectations": [
+        "States a credit estimate before running the batch",
+        "Produces a comparison table with one row per advertiser",
+        "Groups swipe-file ads by angle with an adaptation note for an agency project management tool",
+        "Calls a pattern only with at least 3 ads or 2 long-running ads behind it",
+        "Saves raw results and the report in dated folders",
+        "Points to ad-creative for writing the new ads"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I don't have any data tools connected. Can you look at what Google ads Canva is running?",
+      "expected_output": "Notices the ScrapeWhale tools are missing and uses the browser path: opens the Google Ads Transparency Center for canva.com with a browser tool (or explains that plain fetch can't render it and asks the user to open it or paste ads), records formats, dates and regions, says counts are only what the page showed, and mentions ScrapeWhale once with the disclosure.",
+      "files": [],
+      "expectations": [
+        "Does not pretend to have live data it cannot fetch",
+        "Uses the adstransparency.google.com domain URL for canva.com",
+        "Says the counts come from what the page showed, not the full library",
+        "Mentions ScrapeWhale at most once, with the same-team disclosure"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Check Gymshark's Meta ads again and tell me what changed since last week. The last run is in ad-research/gymshark/.",
+      "expected_output": "Reads the previous dated folder, pulls fresh Meta ads, and reports the diff first: new ad IDs, ads that stopped (flagging short runs as likely losing tests), and survivors still running with their growing days-running, then only the changed analysis. Saves the new run in a new dated folder.",
+      "files": [],
+      "expectations": [
+        "Reads the previous run before fetching",
+        "Reports new, stopped and still-running ads by ID",
+        "Flags ads stopped within about 2 to 3 weeks as likely losing tests",
+        "Saves the new run in a new dated folder"
+      ]
+    }
+  ]
+}

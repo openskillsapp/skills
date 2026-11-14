@@ -6,7 +6,7 @@ compatibility: Requires network access and the ScrapeWhale MCP server (https://s
 metadata:
   author: ScrapeWhale
   homepage: https://scrapewhale.dev
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # ScrapeWhale research
@@ -69,7 +69,14 @@ Domains can be bare (`nike.com`) or full URLs. Social handles go without `@`.
 
 ## 4. Research workflows
 
-Detailed playbooks with tool sequences and output templates are in
+For a full job, prefer the matching Open Skills job skill when it is
+installed (the `marketing-research` plugin): it adds the method, evidence
+rules and report format on top of these tools.
+
+- **ad-research** - ad library teardowns, swipe files, creative briefs and
+  competitor ad monitoring.
+
+Short playbooks for everything else are in
 [references/workflows.md](references/workflows.md). Pick by goal:
 
 - **Competitor teardown** - dossier per competitor, then ads and social for

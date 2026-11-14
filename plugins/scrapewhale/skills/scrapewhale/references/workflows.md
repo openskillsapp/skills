@@ -39,6 +39,9 @@ Report: count of active ads, the oldest still-running ads (long-running ads
 usually perform), recurring angles and offers, formats and CTAs, and exact
 quotes of the best examples with their start dates.
 
+For a full teardown, swipe file or monitoring run, use the **ad-research**
+skill (Open Skills `marketing-research` plugin) if it is installed.
+
 ## Creator / influencer shortlist
 
 Goal: candidates for a campaign in a niche.

@@ -1,0 +1,23 @@
+{
+  "name": "marketing-research",
+  "displayName": "Marketing Research",
+  "version": "0.1.0",
+  "description": "Marketing research skills built on live public web data: ad library teardowns and swipe files, with more jobs (AI visibility, competitor intel, SEO research) on the way. Each skill works on its own and goes further with the ScrapeWhale MCP server, which installs with it.",
+  "author": {
+    "name": "Open Skills",
+    "url": "https://openskills.app"
+  },
+  "homepage": "https://openskills.app",
+  "repository": "https://github.com/openskillsapp/skills",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "ad library",
+    "ad research",
+    "competitor research",
+    "creative strategy",
+    "swipe file"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "dependencies": ["scrapewhale"]
+}

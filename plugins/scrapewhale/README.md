@@ -17,7 +17,18 @@ This plugin bundles:
 
 ## Setup
 
-1. Install the plugin, then run `/mcp`, pick **scrapewhale** and sign in with
+1. Install the plugin:
+
+   ```
+   /plugin install scrapewhale --marketplace openskillsapp/skills
+   ```
+
+   (or `/plugin marketplace add openskillsapp/skills`, then
+   `/plugin install scrapewhale@openskills`). For full research jobs such as
+   ad library teardowns, install `marketing-research@openskills` instead; it
+   brings this plugin with it.
+
+   Then run `/mcp`, pick **scrapewhale** and sign in with
    your ScrapeWhale account (or create one; new accounts get 10 free credits).
 2. Ask, for example:
    - "Build a brand dossier for allbirds.com."

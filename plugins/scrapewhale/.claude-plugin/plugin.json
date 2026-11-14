@@ -1,8 +1,8 @@
 {
   "name": "scrapewhale",
   "displayName": "ScrapeWhale",
-  "version": "1.0.0",
-  "description": "Brand and competitor research with live web data: estimated traffic, the ads a brand runs, social profiles, Google search, Maps and Trends, and any web page as markdown. Bundles the ScrapeWhale MCP server and a research skill.",
+  "version": "1.1.0",
+  "description": "Live public web data for brand and competitor research: estimated traffic, the ads a brand runs on Meta and Google, social profiles, Google search, AI Overview, Maps and Trends, store catalogs, and any web page as markdown. Bundles the ScrapeWhale MCP server and its tool-reference skill.",
   "author": {
     "name": "ScrapeWhale",
     "email": "support@scrapewhale.dev",
@@ -20,6 +20,7 @@
     "seo",
     "mcp"
   ],
+  "icon": "./.claude-plugin/icon.png",
   "mcpServers": "./.mcp.json",
   "documentationUrl": "https://scrapewhale.dev/docs/api",
   "supportUrl": "https://scrapewhale.dev/contact",

@@ -9,7 +9,7 @@
     {
       "name": "scrapewhale",
       "source": "./plugins/scrapewhale",
-      "description": "Brand and competitor research with live web data: traffic, ads, social profiles, search, maps, trends, and any web page as markdown.",
+      "description": "Live public web data for brand and competitor research: traffic, ads, social profiles, search, AI Overview, maps, trends, and any web page as markdown.",
       "category": "marketing",
       "tags": [
         "marketing",
@@ -18,6 +18,19 @@
         "seo",
         "social-media",
         "mcp"
+      ]
+    },
+    {
+      "name": "marketing-research",
+      "source": "./plugins/marketing-research",
+      "description": "Marketing research skills on live public web data: ad library teardowns and swipe files, with AI visibility, competitor intel and SEO research coming. Installs the ScrapeWhale plugin with it.",
+      "category": "marketing",
+      "tags": [
+        "marketing",
+        "ads",
+        "ad-library",
+        "competitor-research",
+        "creative-strategy"
       ]
     }
   ]
