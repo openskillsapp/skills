@@ -7,7 +7,7 @@ would do it: what to collect, how to read it, and a report you can act on.
 | Skill | What it does |
 | --- | --- |
 | [`ad-research`](skills/ad-research) | What a company advertises on Meta and Google: live ads, the longest-running ones, angles, hooks, offers, formats and landing pages, with exact copy and dates. Teardowns, swipe files, creative briefs and weekly monitoring. |
-| [`ai-visibility`](skills/ai-visibility) | How visible a brand is in AI answers: AI Overview coverage, who gets cited, mentioned and recommended for buyers' prompts, AI chatbot traffic and agent readiness, against competitors, with ranked fixes. |
+| [`ai-visibility`](skills/ai-visibility) | How visible a brand is in AI answers: buyers' prompts run in Google AI Overviews, ChatGPT, Perplexity, Gemini and Claude, scoring who gets cited, mentioned and recommended against competitors, plus AI chatbot traffic and agent readiness, with ranked fixes. |
 | [`competitor-intel`](skills/competitor-intel) | Data-backed competitor snapshots: estimated traffic and channel mix, search footprint, ads, social, positioning and pricing side by side, with strengths, exposures and implications. |
 | [`seo-research`](skills/seo-research) | What it takes to rank: who ranks now, the winning page type, how beatable the results are, SERP features and questions, demand trends. Ranked target lists, content briefs, competitor gaps and rank tracking. |
 

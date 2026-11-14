@@ -65,11 +65,11 @@ version and log a note whenever prompts are added, removed or reweighted.
 
 ## Scoring
 
-Per brand, over the non-control prompts:
+Per brand and engine, over the non-control prompts:
 
 | Metric | Formula |
 | --- | --- |
-| Overview coverage | prompts with an AI answer / prompts run |
+| Answer coverage | prompts with an AI answer / prompts run |
 | Citation rate | prompts where the brand's domain is a reference / prompts with an answer |
 | Mention rate | prompts where the brand is named in the text / prompts with an answer |
 | Recommendation rate | prompts where it is named as an option to choose, framed favourable or neutral / prompts with an answer |

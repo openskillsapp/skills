@@ -1,7 +1,7 @@
 {
   "name": "marketing-research",
   "displayName": "Marketing Research",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Marketing research skills built on live public web data: ad library research, AI visibility (GEO), competitor intel and SEO research. Each skill works on its own and goes further with the ScrapeWhale MCP server, which installs with it.",
   "author": {
     "name": "Open Skills",

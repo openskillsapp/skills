@@ -4,10 +4,12 @@
     {
       "id": 1,
       "prompt": "We're Plausible (plausible.io), a privacy-friendly analytics tool. How visible are we in Google's AI Overviews compared with Fathom and Matomo? I want a baseline before we start GEO work.",
-      "expected_output": "Drafts a 10-25 prompt set weighted to buying intents with two controls, shows it for approval with a credit estimate, then runs ai_overview per prompt plus traffic and agent_ready per domain. Reports a scorecard with citation, mention and recommendation rates with denominators, a per-prompt table, source mix, citation gaps with what the winning pages do, and ranked fixes. Saves prompts.json and the dated run.",
+      "expected_output": "Drafts a 10-25 prompt set weighted to buying intents with two controls and shows it for approval. Runs each prompt as a fresh Google search in the browser with the same settings, expanding the AI Overview and its sources, and records answer, brands in order with framing, and cited links per prompt. Adds traffic and agent_ready per domain through ScrapeWhale (with a credit estimate). Reports a scorecard with citation, mention and recommendation rates with denominators, a per-prompt table, source mix, citation gaps with what the winning pages do, and ranked fixes. Saves prompts.json and the dated run.",
       "files": [],
       "expectations": [
-        "Shows the prompt set and a credit estimate before running",
+        "Shows the prompt set and gets approval before running",
+        "Runs the prompts in the browser, not through a ScrapeWhale AI Overview call",
+        "Records the run settings (market, signed-in state) in the method notes",
         "Includes a brand-name control prompt and an unrelated control prompt",
         "Reports rates with their denominators",
         "Separates cited, mentioned and recommended",
@@ -18,10 +20,10 @@
     {
       "id": 2,
       "prompt": "Why does ChatGPT keep recommending HubSpot instead of us (pipedrive.com) when people ask for a CRM for small sales teams?",
-      "expected_output": "Explains that ScrapeWhale covers Google AI Overviews only, so ChatGPT answers need the browser path or answers the user pastes. Builds a small prompt set around small-sales-team CRM recommendations, runs or collects ChatGPT answers, records brands named in order with framing and cited links, and explains that recommendations mostly reflect third-party consensus, pointing to the sources behind HubSpot's mentions. Suggests ai-seo for the follow-up work.",
+      "expected_output": "Builds a small prompt set around small-sales-team CRM recommendations, runs each in a fresh ChatGPT chat in the browser (memory off, same search setting for all) or asks the user to paste answers if no browser tool is available, records brands named in order with framing and cited links, and explains that recommendations mostly reflect third-party consensus, pointing to the sources behind HubSpot's mentions. Suggests ai-seo for the follow-up work.",
       "files": [],
       "expectations": [
-        "Does not claim to have queried ChatGPT through ScrapeWhale",
+        "Uses a fresh chat per prompt rather than follow-ups in one thread",
         "Records the order and framing of the brands named",
         "Distinguishes being cited from being recommended",
         "Points to the third-party sources behind the competitor's recommendations"

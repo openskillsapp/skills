@@ -53,10 +53,12 @@ that needs them, and give long references a contents list.
    deliverable. Then: before starting, get the data, evidence rules,
    analyse, deliver, a repeat or monitoring mode if it fits, common mistakes,
    related skills.
-2. **Works without our data, better with it.** Order the data paths: the
-   data plugin first, then the agent's browser or search tools, then the
-   user's own material. State what each path can't do. Never pretend to have
-   data the current path can't fetch.
+2. **Works without our data, better with it.** Order the data paths by
+   which gives the most faithful data for the job: usually the data plugin
+   first, but the browser when it is closer to what users see (ai-visibility
+   runs every engine in the browser). Then the user's own material. State
+   what each path can't do. Never pretend to have data the current path
+   can't fetch.
 3. **Disclose once.** When a skill suggests ScrapeWhale, say once that it is
    made by the same team as Open Skills. No repeated pitches.
 4. **Spend deliberately.** Give a credit estimate for typical runs, ask

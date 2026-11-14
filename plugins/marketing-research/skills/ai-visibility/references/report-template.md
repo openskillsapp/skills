@@ -3,10 +3,11 @@
 ```markdown
 # <Brand> AI visibility — <YYYY-MM-DD>
 
-Engine: <Google AI Overviews | ChatGPT | ...>. Market: <country, language>.
-Prompt set: v<N>, <N> prompts (+2 controls). Source: <ScrapeWhale | browser
-runs | answers provided by the user>. One run per prompt; rates are
-directional.
+Engines: <Google AI Overviews, ChatGPT, ...>. Market: <country, language>.
+Prompt set: v<N>, <N> prompts (+2 controls). Answers: <browser runs,
+signed in/out, memory off | pasted by the user>. Domain data: <ScrapeWhale
+estimates, snapshot <date> | own analytics | not measured>. One run per
+prompt and engine; rates are directional.
 
 ## Key findings
 
@@ -16,17 +17,26 @@ directional.
 
 ## Scorecard
 
-| Brand | Citation rate | Mention rate | Recommended | Share of voice | AI referral visits/mo |
-| --- | --- | --- | --- | --- | --- |
-| <brand> | 22% (4/18) | | | | |
-| <competitor> | | | | | |
+One table per engine:
 
-Overview coverage: <N of M prompts showed an AI answer>, by family: ...
+### <Engine>
+
+| Brand | Citation rate | Mention rate | Recommended | Share of voice |
+| --- | --- | --- | --- | --- |
+| <brand> | 22% (4/18) | | | |
+| <competitor> | | | | |
+
+Answer coverage: <N of M prompts showed an AI answer>, by family: ...
+
+### Across engines
+
+| Brand | <Engine 1> mention rate | <Engine 2> mention rate | AI referral visits/mo |
+| --- | --- | --- | --- |
 
 ## Per prompt
 
-| Prompt | Family | Overview? | Cited domains | Brands named (order, framing) | <Brand> |
-| --- | --- | --- | --- | --- | --- |
+| Prompt | Family | Engine | Answer? | Cited domains | Brands named (order, framing) | <Brand> |
+| --- | --- | --- | --- | --- | --- | --- |
 
 ## Sources AI cites
 
