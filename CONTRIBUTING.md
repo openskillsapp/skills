@@ -1,7 +1,7 @@
 # Writing skills for this repo
 
 How skills here are built. `node scripts/validate.mjs` checks the
-mechanical rules; CI runs it on every push and pull request.
+mechanical rules: run it before every commit.
 
 ## Layout
 
