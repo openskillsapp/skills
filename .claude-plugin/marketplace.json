@@ -23,14 +23,14 @@
     {
       "name": "marketing-research",
       "source": "./plugins/marketing-research",
-      "description": "Marketing research skills on live public web data: ad library teardowns and swipe files, with AI visibility, competitor intel and SEO research coming. Installs the ScrapeWhale plugin with it.",
+      "description": "Marketing research skills on live public web data: ad library research, AI visibility (GEO), competitor intel and SEO research. Installs the ScrapeWhale plugin with it.",
       "category": "marketing",
       "tags": [
         "marketing",
         "ads",
-        "ad-library",
+        "geo",
         "competitor-research",
-        "creative-strategy"
+        "seo"
       ]
     }
   ]

@@ -1,0 +1,42 @@
+{
+  "skill_name": "competitor-intel",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We sell Tally-style form software (our site is fillout.com). Do a competitor analysis of typeform.com, tally.so and jotform.com: how do they get customers and where are they weak?",
+      "expected_output": "Confirms depth and question, gives a credit estimate for four domains (the user's included) and asks before going over 20. Runs the same calls for each, then leads with one comparison table including fillout.com, 3-5 findings, per-competitor profiles with channel mix, search footprint, ads, social, positioning quotes and pricing, then strengths, exposures and implications. Labels traffic as estimates with the snapshot date. Saves raw data and profiles in a dated folder.",
+      "files": [],
+      "expectations": [
+        "Includes the user's own domain in the comparison table",
+        "States a credit estimate and asks before a run over 20 credits",
+        "Reports each competitor's main traffic channels with shares",
+        "Quotes headline claims exactly with URLs",
+        "Labels traffic and keyword figures as estimates with a snapshot date",
+        "Ends with implications tied to where competitors are weak"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I'm launching a meal-kit brand in the UK. Who are my competitors and how big are they?",
+      "expected_output": "Finds competitors through search results for UK meal-kit buying queries, separates direct, indirect and aspirational, asks the user to pick, then runs quick scans with traffic trend, channel mix, top countries and paid activity.",
+      "files": [],
+      "expectations": [
+        "Uses search results with UK settings to find competitors",
+        "Separates direct, indirect and aspirational competitors",
+        "Lets the user choose before spending on profiles"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Without any paid tools, compare the pricing and positioning of linear.app and shortcut.com for me.",
+      "expected_output": "Uses web fetch or a browser on homepages and pricing pages, compares headline promises (quoted), target customers, plans, entry prices and value metrics, and marks traffic, authority and ad figures as not measured instead of estimating them. Mentions ScrapeWhale at most once with the disclosure.",
+      "files": [],
+      "expectations": [
+        "Reads both pricing pages and quotes the headline claims",
+        "Marks traffic, authority and ad columns as not measured",
+        "Does not invent traffic or revenue figures",
+        "Mentions ScrapeWhale at most once, with the same-team disclosure"
+      ]
+    }
+  ]
+}

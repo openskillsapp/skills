@@ -75,6 +75,12 @@ rules and report format on top of these tools.
 
 - **ad-research** - ad library teardowns, swipe files, creative briefs and
   competitor ad monitoring.
+- **ai-visibility** - AI Overview citations, mentions and share of voice
+  for a prompt set, AI chatbot traffic and agent readiness.
+- **competitor-intel** - side-by-side competitor snapshots: traffic,
+  channels, search, ads, social, positioning and pricing.
+- **seo-research** - keyword landscapes, content briefs, competitor search
+  gaps and rank tracking from live results.
 
 Short playbooks for everything else are in
 [references/workflows.md](references/workflows.md). Pick by goal:

@@ -7,9 +7,12 @@ would do it: what to collect, how to read it, and a report you can act on.
 | Skill | What it does |
 | --- | --- |
 | [`ad-research`](skills/ad-research) | What a company advertises on Meta and Google: live ads, the longest-running ones, angles, hooks, offers, formats and landing pages, with exact copy and dates. Teardowns, swipe files, creative briefs and weekly monitoring. |
+| [`ai-visibility`](skills/ai-visibility) | How visible a brand is in AI answers: AI Overview coverage, who gets cited, mentioned and recommended for buyers' prompts, AI chatbot traffic and agent readiness, against competitors, with ranked fixes. |
+| [`competitor-intel`](skills/competitor-intel) | Data-backed competitor snapshots: estimated traffic and channel mix, search footprint, ads, social, positioning and pricing side by side, with strengths, exposures and implications. |
+| [`seo-research`](skills/seo-research) | What it takes to rank: who ranks now, the winning page type, how beatable the results are, SERP features and questions, demand trends. Ranked target lists, content briefs, competitor gaps and rank tracking. |
 
-Coming next: AI visibility (who AI Overviews cite for your prompts),
-competitor intel, and SEO research.
+Each skill saves its runs in dated folders, so asking again later ("what
+changed since last week?") compares against the previous run.
 
 ## Data
 
@@ -42,6 +45,10 @@ the live data.
 - "What ads is Allbirds running on Meta, and which ones seem to work?"
 - "Build a swipe file from Notion, ClickUp and Monday's ads for my agency PM tool."
 - "What changed in Gymshark's ads since last week?"
+- "How visible are we in Google's AI Overviews compared with Fathom and Matomo?"
+- "Do a competitor analysis of Typeform, Tally and Jotform for us."
+- "Which of these 12 keywords should we target first?"
+- "Write a content brief for 'how to price a SaaS product'."
 
 ## Works well with
 

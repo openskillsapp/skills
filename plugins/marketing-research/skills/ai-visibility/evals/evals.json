@@ -1,0 +1,43 @@
+{
+  "skill_name": "ai-visibility",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We're Plausible (plausible.io), a privacy-friendly analytics tool. How visible are we in Google's AI Overviews compared with Fathom and Matomo? I want a baseline before we start GEO work.",
+      "expected_output": "Drafts a 10-25 prompt set weighted to buying intents with two controls, shows it for approval with a credit estimate, then runs ai_overview per prompt plus traffic and agent_ready per domain. Reports a scorecard with citation, mention and recommendation rates with denominators, a per-prompt table, source mix, citation gaps with what the winning pages do, and ranked fixes. Saves prompts.json and the dated run.",
+      "files": [],
+      "expectations": [
+        "Shows the prompt set and a credit estimate before running",
+        "Includes a brand-name control prompt and an unrelated control prompt",
+        "Reports rates with their denominators",
+        "Separates cited, mentioned and recommended",
+        "Groups cited sources by type and lists third-party sources that cite competitors but not Plausible",
+        "Saves a versioned prompts.json for later runs"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Why does ChatGPT keep recommending HubSpot instead of us (pipedrive.com) when people ask for a CRM for small sales teams?",
+      "expected_output": "Explains that ScrapeWhale covers Google AI Overviews only, so ChatGPT answers need the browser path or answers the user pastes. Builds a small prompt set around small-sales-team CRM recommendations, runs or collects ChatGPT answers, records brands named in order with framing and cited links, and explains that recommendations mostly reflect third-party consensus, pointing to the sources behind HubSpot's mentions. Suggests ai-seo for the follow-up work.",
+      "files": [],
+      "expectations": [
+        "Does not claim to have queried ChatGPT through ScrapeWhale",
+        "Records the order and framing of the brands named",
+        "Distinguishes being cited from being recommended",
+        "Points to the third-party sources behind the competitor's recommendations"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Rerun our AI visibility check from last month (ai-visibility/acme/) and tell me what changed.",
+      "expected_output": "Reuses the saved prompts.json unchanged, reruns it, and leads with the diff: prompts gained and lost per brand, rate changes with both denominators, new cited sources and framing changes. Checks the control prompts and treats single-prompt changes as noise unless they hold.",
+      "files": [],
+      "expectations": [
+        "Reuses the saved prompt set instead of writing a new one",
+        "Leads with what changed since the last run",
+        "Checks the control prompts before trusting movements",
+        "Saves the new run in a new dated folder"
+      ]
+    }
+  ]
+}

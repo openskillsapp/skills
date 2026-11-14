@@ -9,6 +9,9 @@ works in Claude Code, Codex, Cursor, and other agents that read `SKILL.md`.
 | Plugin | Skill | What it does |
 | --- | --- | --- |
 | [`marketing-research`](plugins/marketing-research) | [`ad-research`](plugins/marketing-research/skills/ad-research) | What a company advertises on Meta and Google: live ads, the longest-running ones, angles, hooks, offers and landing pages, with exact copy and dates. Teardowns, swipe files, creative briefs and monitoring. |
+| | [`ai-visibility`](plugins/marketing-research/skills/ai-visibility) | How visible a brand is in AI answers: AI Overview coverage, who gets cited, mentioned and recommended for buyers' prompts, AI chatbot traffic and agent readiness, against competitors, with ranked fixes. |
+| | [`competitor-intel`](plugins/marketing-research/skills/competitor-intel) | Data-backed competitor snapshots: estimated traffic and channel mix, search footprint, ads, social, positioning and pricing side by side, with strengths, exposures and implications. |
+| | [`seo-research`](plugins/marketing-research/skills/seo-research) | What it takes to rank: who ranks now, the winning page type, how beatable the results are, SERP features and questions, demand trends. Ranked target lists, content briefs, competitor gaps and rank tracking. |
 | [`scrapewhale`](plugins/scrapewhale) | [`scrapewhale`](plugins/scrapewhale/skills/scrapewhale) | Live public web data: estimated traffic, the ads a brand runs, social profiles, Google search, AI Overview, Maps and Trends, store catalogs, and any web page as markdown. Bundles the [ScrapeWhale](https://scrapewhale.dev) MCP server. |
 
 Job skills (`marketing-research`) work on their own with a browser or your

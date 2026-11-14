@@ -1,0 +1,43 @@
+{
+  "skill_name": "seo-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We run a small invoicing app (invoicely-example.com). Here are 12 keywords we're thinking about: invoice template, free invoice generator, how to write an invoice, invoice vs receipt, best invoicing software for freelancers, freshbooks alternatives, invoice payment terms, late payment reminder email, proforma invoice, recurring invoices, invoice number format, net 30 meaning. Which should we go after first?",
+      "expected_output": "Measures the user's own authority, runs live results for each query in the US market, gets authority once per unique ranking domain, identifies the winning page type and SERP features per query, scores fit, format match, beatability and demand, and delivers a ranked target table with an action per query. States a credit estimate first. Does not invent search volumes; labels where volume came from or that it is not measured.",
+      "files": [],
+      "expectations": [
+        "States a credit estimate before running",
+        "Measures the user's own domain authority as the yardstick",
+        "Names the winning page type per query from the live results",
+        "Calls authority once per unique domain rather than per appearance",
+        "Does not present invented search volume or difficulty",
+        "Delivers a ranked table with an action for each query"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write me a content brief for 'how to price a SaaS product' so it can outrank what's there now.",
+      "expected_output": "Runs the results page and the AI Overview, reads the top 3-5 pages, and writes a brief with the winning page type, a ranking-page table, an angle that beats the current results, an outline with a direct answer up top, PAA questions as FAQ, must-include items, proof to gather and on-page details.",
+      "files": [],
+      "expectations": [
+        "Reads the top-ranking pages before writing the brief",
+        "Includes People Also Ask questions",
+        "States an angle that beats the current results rather than averaging them",
+        "Includes title, meta description and internal links"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Compare our organic search with Calendly and Cal.com. We're savvycal.com. Where are they winning that we aren't?",
+      "expected_output": "Pulls organic totals, authority, backlink counts and traffic (search share and top keywords with volume) for the three sites, then runs live results for the competitors' top keywords to see where SavvyCal is missing, and delivers a comparison table plus a contestable target list. Notes that organic totals are US-only estimates and that no full ranked-keyword list is available.",
+      "files": [],
+      "expectations": [
+        "Includes savvycal.com in the comparison",
+        "Uses the competitors' top keywords with volume from the traffic data",
+        "Checks live results to confirm the gaps",
+        "States the limits: US-only organic totals, no full keyword or backlink lists"
+      ]
+    }
+  ]
+}
