@@ -111,3 +111,9 @@ requests ("check weekly", "redo last month's check") missed most often.
 Bump `version` in the plugin's `plugin.json` and the skill's `metadata`
 when behaviour changes, run `node scripts/validate.mjs`, and add the skill
 to the tables in the root README and the plugin README.
+
+After pushing a new skill, install it once with the CLI so skills.sh lists it:
+skills.sh learns about skills from install telemetry, not from GitHub, and
+Claude Code plugin installs don't report there. In an empty folder, outside
+CI: `npx skills add openskillsapp/skills --skill <name> --agent claude-code -y
+--copy`, then delete the folder.
